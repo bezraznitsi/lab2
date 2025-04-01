@@ -1,0 +1,37 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.vcxproj.user
+
+# Temporary files
+*.obj
+*.exe
+*.pdb
+*.dll
+*.lib
+*.ilk
+*.manifest
+*.exp
+
+# Other temporary files
+*.tmp
+*.log
+*.cache
+*.bak
+*.swp
+*.DS_Store
+
+# Build directories
+/bin/
+/Debug/
+/Release/
+/x64/
+/ARM/
+/ARM64/
+
+# Other ignored files
+*.resharper*
+*.resharper.user
+*.vspscc
+*.vssscc
