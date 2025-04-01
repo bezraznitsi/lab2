@@ -1,5 +1,5 @@
 ﻿#include <iostream>
-#include <Windows.h>
+#include <locale.h>
 #include "cblas/include/cblas.h"
 #include <immintrin.h>
 
@@ -121,7 +121,7 @@ void matmul_transposed_blocked_optimized(const int n, double** a, double** bt, d
 
 
 int main() {
-    SetConsoleOutputCP(1251);
+    setlocale(LC_ALL, "");
 
 	int n = 1024;
     
